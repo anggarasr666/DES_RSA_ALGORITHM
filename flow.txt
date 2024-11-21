@@ -1,0 +1,8 @@
+1. Setiap Client Mencoba Terhubung ke Server
+2. Ketika Client Terhubung, Client akan mengirimkan data berupa Public Key ke Server
+3. Server Menyimpan Public Key di PKA
+
+4. Ketika Client Ingin Mengirimkan Data, Client akan Mengenkripsi Data dengan Public Key Client Tujuan
+5. Client Mengirimkan Data yang telah dienkripsi ke Server
+6. Server Menerima Data yang telah dienkripsi dan Mengirimkannya ke Client Tujuan
+7. Client Tujuan Menerima Data yang telah dienkripsi dan Menggunakan Private Key untuk Mendapatkan Data yang Asli
